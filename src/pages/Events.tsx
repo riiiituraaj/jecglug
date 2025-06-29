@@ -45,7 +45,7 @@ const Events = () => {
     {
       id: 4,
       title: 'HackVita 3.0',
-      date: '2023-11-18',
+      date: '2025-03-30',
       description: 'Successfully concluded hackathon with 200+ participants and innovative project showcases.',
       status: 'past',
       tags: ['hackathon', 'success', 'innovation']
