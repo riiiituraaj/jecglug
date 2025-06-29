@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -18,6 +17,22 @@ const Sponsors = () => {
   const sponsors: Sponsor[] = [
     {
       id: 1,
+      name: 'Frint.in',
+      logo: 'F',
+      event: 'GLUG 2025-26 Session',
+      tier: 'gold',
+      website: 'https://frint.in'
+    },
+    {
+      id: 2,
+      name: 'Saurabhi Media',
+      logo: 'SM',
+      event: 'GLUG 2025-26 Session',
+      tier: 'gold',
+      website: 'https://saurabhimedia.com'
+    },
+    {
+      id: 3,
       name: 'TechCorp Solutions',
       logo: 'T',
       event: 'HackVita 3.0',
@@ -25,39 +40,39 @@ const Sponsors = () => {
       website: 'https://techcorp.com'
     },
     {
-      id: 2,
+      id: 4,
       name: 'DevForce Labs',
       logo: 'D',
       event: 'Linux Workshop Series',
-      tier: 'gold',
+      tier: 'silver',
       website: 'https://devforce.com'
     },
     {
-      id: 3,
+      id: 5,
       name: 'CloudNine Systems',
       logo: 'C',
       event: 'Cybersecurity Awareness',
-      tier: 'gold',
+      tier: 'silver',
       website: 'https://cloudnine.com'
     },
     {
-      id: 4,
+      id: 6,
       name: 'InnovateTech',
       logo: 'I',
       event: 'Open Source Drive',
-      tier: 'silver',
+      tier: 'bronze',
       website: 'https://innovatetech.com'
     },
     {
-      id: 5,
+      id: 7,
       name: 'StartupHub',
       logo: 'S',
       event: 'Git Masterclass',
-      tier: 'silver',
+      tier: 'bronze',
       website: 'https://startuphub.com'
     },
     {
-      id: 6,
+      id: 8,
       name: 'CodeCraft',
       logo: 'CC',
       event: 'Python Workshop',
@@ -137,7 +152,7 @@ const Sponsors = () => {
                       >
                         <div className="text-center">
                           {/* Logo */}
-                          <div className={`w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br ${getTierColor(sponsor.tier)} flex items-center justify-center text-white font-bold text-2xl group-hover:scale-110 transition-transform duration-300`}>
+                          <div className={`w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br ${getTierColor(sponsor.tier)} flex items-center justify-center text-white font-bold text-lg group-hover:scale-110 transition-transform duration-300`}>
                             {sponsor.logo}
                           </div>
 
@@ -160,7 +175,7 @@ const Sponsors = () => {
                           {hoveredSponsor === sponsor.id && (
                             <div className="mt-4 glass rounded-lg p-3 font-mono text-sm animate-fade-in">
                               <span className="text-glug-green">$ </span>
-                              <span className="text-white">visit --{sponsor.name.toLowerCase().replace(/\s+/g, '')}</span>
+                              <span className="text-white">visit --{sponsor.name.toLowerCase().replace(/\s+/g, '').replace('.', '')}</span>
                               <span className="text-glug-green animate-pulse ml-1">█</span>
                             </div>
                           )}

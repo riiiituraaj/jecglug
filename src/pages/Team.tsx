@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -24,51 +23,58 @@ const Team = () => {
     {
       title: 'Club Head',
       members: [
-        { name: 'Arjun Sharma', role: 'President', bio: 'Passionate about Linux kernel development' }
+        { name: 'Abhilash Kashyap', role: 'President', bio: 'Leading GLUG into the future with passion for open source' }
       ]
     },
     {
       title: 'Co-Heads',
       members: [
-        { name: 'Priya Devi', role: 'Vice President', bio: 'Open source advocate and web developer' },
-        { name: 'Rahul Kumar', role: 'Secretary', bio: 'DevOps enthusiast and cloud architect' }
+        { name: 'Ashish Saikia', role: 'Co-Head', bio: 'Driving innovation and collaboration' },
+        { name: 'Dorothy Gogoi', role: 'Co-Head', bio: 'Fostering community growth and engagement' },
+        { name: 'Ritu Raj Bora', role: 'Co-Head & Design Lead', bio: 'Creative visionary and design expert' }
       ]
     },
     {
       title: 'Technical Team',
       members: [
-        { name: 'Sneha Patel', role: 'Tech Lead', bio: 'Full-stack developer and mentor' },
-        { name: 'Vikash Singh', role: 'Backend Developer', bio: 'Python and Go enthusiast' },
-        { name: 'Anita Boro', role: 'Frontend Developer', bio: 'React and Vue.js specialist' },
-        { name: 'Manish Gupta', role: 'System Admin', bio: 'Linux server administration expert' }
+        { name: 'Abhimanyu Saikia', role: 'Tech Lead', bio: 'Full-stack developer and technical mentor' },
+        { name: 'Sivanuj Dutta', role: 'Coordinator', bio: 'Backend development and system architecture' },
+        { name: 'Rittam Dutta', role: 'Coordinator', bio: 'Frontend development and UI/UX' },
+        { name: 'Kaushik Ranjan Rajkumar', role: 'Coordinator', bio: 'DevOps and cloud infrastructure' }
       ]
     },
     {
       title: 'Design Team',
       members: [
-        { name: 'Ritu Choudhury', role: 'Design Lead', bio: 'UI/UX designer and creative director' },
-        { name: 'Akash Jain', role: 'Graphic Designer', bio: 'Brand identity and visual design' }
+        { name: 'Ritu Raj Bora', role: 'Design Lead', bio: 'UI/UX designer and creative director' },
+        { name: 'Arnold Saikia', role: 'Coordinator', bio: 'Visual design and brand identity' },
+        { name: 'Ayushman Lahon', role: 'Coordinator', bio: 'Graphic design and illustrations' },
+        { name: 'Nibir Kalita', role: 'Coordinator', bio: 'Motion graphics and animation' }
       ]
     },
     {
-      title: 'Management',
+      title: 'Management Team',
       members: [
-        { name: 'Deepak Nath', role: 'Event Manager', bio: 'Event planning and coordination' },
-        { name: 'Pooja Deka', role: 'Finance Head', bio: 'Budget management and sponsorships' }
+        { name: 'Bishal Ranjan Nath', role: 'Management Lead', bio: 'Event planning and team coordination' },
+        { name: 'Priyam Nath', role: 'Coordinator', bio: 'Project management and logistics' },
+        { name: 'Arindom Mahanta', role: 'Coordinator', bio: 'Budget management and resources' },
+        { name: 'Ananya Das', role: 'Coordinator', bio: 'Partnership and collaboration' },
+        { name: 'Sumanta Bhargab', role: 'Coordinator', bio: 'Operations and workflow management' }
       ]
     },
     {
-      title: 'Social Media',
+      title: 'Social Media Team',
       members: [
-        { name: 'Amit Baruah', role: 'Social Media Lead', bio: 'Content creation and community building' },
-        { name: 'Kavita Roy', role: 'Content Writer', bio: 'Technical writing and documentation' }
+        { name: 'Tushar Haloi', role: 'Social Media Lead', bio: 'Content strategy and community building' },
+        { name: 'Koustab Saikia', role: 'Coordinator', bio: 'Content creation and engagement' },
+        { name: 'Bivamoni Amchi', role: 'Coordinator', bio: 'Social media analytics and campaigns' },
+        { name: 'Jyotismita Saikia', role: 'Coordinator', bio: 'Creative content and storytelling' }
       ]
     }
   ];
 
-  const generalMembers = [
-    'Rohit Sharma', 'Neha Agarwal', 'Sanjay Kumar', 'Preeti Singh', 'Gaurav Patel',
-    'Shreya Devi', 'Varun Gupta', 'Nisha Boro', 'Ravi Kumar', 'Sakshi Jain'
+  const generalCoordinators = [
+    'Rajdeep Dutta', 'Dreamsea Dutta', 'Mriganka Mahanta', 'Pranjal Nath'
   ];
 
   const toggleSection = (sectionTitle: string) => {
@@ -92,9 +98,14 @@ const Team = () => {
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-glug-blue bg-clip-text text-transparent">
               Our Team
             </h1>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-4">
               Meet the passionate individuals who drive GLUG's mission of promoting open-source culture and innovation.
             </p>
+            <div className="glass-strong rounded-lg p-4 max-w-md mx-auto">
+              <p className="text-glug-green font-mono text-sm">
+                Session 2025–2026
+              </p>
+            </div>
           </div>
 
           {/* Team Sections */}
@@ -142,11 +153,11 @@ const Team = () => {
               </div>
             ))}
 
-            {/* General Members */}
+            {/* General Coordinators */}
             <div className="glass-strong rounded-2xl p-6">
-              <h2 className="text-2xl font-bold text-white mb-6">General Members</h2>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-                {generalMembers.map((member, index) => (
+              <h2 className="text-2xl font-bold text-white mb-6">General Coordinators</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {generalCoordinators.map((member, index) => (
                   <div
                     key={member}
                     className="glass p-4 rounded-lg text-center hover:border-glug-green/30 transition-all duration-300 animate-fade-in"
