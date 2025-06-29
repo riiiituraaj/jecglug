@@ -186,10 +186,10 @@ const Sponsors = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="glass px-8 py-4 rounded-lg font-mono text-glug-blue border border-glug-blue/30 hover:border-glug-blue hover:shadow-lg hover:shadow-glug-blue-glow transition-all duration-300">
-                  > become --sponsor
+                  {'>'} become --sponsor
                 </button>
                 <button className="glass px-8 py-4 rounded-lg font-mono text-glug-green border border-glug-green/30 hover:border-glug-green hover:shadow-lg hover:shadow-glug-green-glow transition-all duration-300">
-                  > contact --partnership
+                  {'>'} contact --partnership
                 </button>
               </div>
 
