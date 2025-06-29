@@ -19,20 +19,32 @@ const Navigation = () => {
 
   return (
     <nav className="floating-nav glass-strong rounded-full px-6 py-3 shadow-2xl">
-      <div className="flex space-x-1">
-        {navItems.map((item) => (
-          <Link
-            key={item.name}
-            to={item.path}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-              isActive(item.path)
-                ? 'bg-glug-blue text-white shadow-lg shadow-glug-blue-glow'
-                : 'text-gray-300 hover:text-white hover:bg-white/10'
-            }`}
-          >
-            {item.name}
-          </Link>
-        ))}
+      <div className="flex items-center space-x-6">
+        {/* GLUG Logo */}
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/lovable-uploads/0af0e1ac-0b00-4ec7-9345-8b9c530df949.png" 
+            alt="GLUG Logo" 
+            className="w-8 h-8 drop-shadow-lg"
+          />
+        </Link>
+        
+        {/* Navigation Links */}
+        <div className="flex space-x-1">
+          {navItems.map((item) => (
+            <Link
+              key={item.name}
+              to={item.path}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                isActive(item.path)
+                  ? 'bg-glug-blue text-white shadow-lg shadow-glug-blue-glow'
+                  : 'text-gray-300 hover:text-white hover:bg-white/10'
+              }`}
+            >
+              {item.name}
+            </Link>
+          ))}
+        </div>
       </div>
     </nav>
   );
