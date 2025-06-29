@@ -31,8 +31,8 @@ const Team = () => {
       members: [
         { name: 'Ashish Saikia', role: 'Co-Head', bio: 'Driving innovation and collaboration' },
         { name: 'Dorothy Gogoi', role: 'Co-Head', bio: 'Fostering community growth and engagement' },
-        { name: 'Ritu Raj Bora', role: 'Co-Head & Design Lead', bio: 'Creative visionary and design expert' }
-        { name: 'Ishan Bhardwaj', role: 'Co-Head', bio: 'Fostering community growth and engagement' },
+        { name: 'Ritu Raj Bora', role: 'Co-Head & Design Lead', bio: 'Creative visionary and design expert' },
+        { name: 'Ishan Bhardwaj', role: 'Co-Head', bio: 'Fostering community growth and engagement' }
       ]
     },
     {
