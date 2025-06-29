@@ -16,10 +16,10 @@ const Footer = () => {
           
           <div className="text-center">
             <p className="text-gray-400 font-mono text-sm">
-              Built with ♥ by GLUG, JEC
+              Made with love by TEAM GLUG, JEC
             </p>
             <p className="text-glug-green font-mono text-xs mt-1">
-              glug@jec:~$
+              jecglug@gmail.com:~$
             </p>
           </div>
         </div>
