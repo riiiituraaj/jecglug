@@ -87,7 +87,7 @@ const Events = () => {
     <div className="min-h-screen page-transition">
       <Navigation />
       
-      <div className="pt-20 px-6">
+      <div className="pt-36 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-glug-green bg-clip-text text-transparent">
