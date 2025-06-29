@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navigation from '../components/Navigation';
 import TerminalSearch from '../components/TerminalSearch';
@@ -24,15 +23,6 @@ const Index = () => {
         </div>
 
         <div className="text-center z-10 px-6">
-          {/* GLUG Logo */}
-          <div className="mb-8 animate-fade-in">
-            <img 
-              src="/lovable-uploads/0af0e1ac-0b00-4ec7-9345-8b9c530df949.png" 
-              alt="GLUG Logo" 
-              className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 mx-auto drop-shadow-2xl transition-all duration-500 hover:scale-105"
-            />
-          </div>
-          
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-glug-blue to-glug-green bg-clip-text text-transparent animate-fade-in">
             GLUG
           </h1>
@@ -87,7 +77,7 @@ const Index = () => {
                 </div>
                 <div className="text-glug-green">
                   <span className="text-gray-400">user@glug:</span>
-                  <span className="text-white">~$ </span>
+                  <span className="text-white">~$ </span> 
                   <span className="animate-pulse">█</span>
                 </div>
               </div>

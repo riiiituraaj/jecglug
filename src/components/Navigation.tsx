@@ -19,16 +19,7 @@ const Navigation = () => {
 
   return (
     <nav className="floating-nav glass-strong rounded-full px-4 md:px-6 py-3 shadow-2xl">
-      <div className="flex items-center space-x-4 md:space-x-6">
-        {/* GLUG Logo */}
-        <Link to="/" className="flex items-center flex-shrink-0">
-          <img 
-            src="/lovable-uploads/0af0e1ac-0b00-4ec7-9345-8b9c530df949.png" 
-            alt="GLUG Logo" 
-            className="w-6 h-6 md:w-8 md:h-8 drop-shadow-lg transition-all duration-300 hover:scale-110"
-          />
-        </Link>
-        
+      <div className="flex items-center justify-center">
         {/* Navigation Links */}
         <div className="flex space-x-1">
           {navItems.map((item) => (
