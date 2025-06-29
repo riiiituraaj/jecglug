@@ -23,7 +23,7 @@ const Team = () => {
     {
       title: 'Club Head',
       members: [
-        { name: 'Abhilash Kashyap', role: 'President', bio: 'Leading GLUG into the future with passion for open source' }
+        { name: 'Abhilash Kashyap', role: 'Club-Head', bio: 'Leading GLUG into the future with passion for open source' }
       ]
     },
     {
@@ -32,6 +32,7 @@ const Team = () => {
         { name: 'Ashish Saikia', role: 'Co-Head', bio: 'Driving innovation and collaboration' },
         { name: 'Dorothy Gogoi', role: 'Co-Head', bio: 'Fostering community growth and engagement' },
         { name: 'Ritu Raj Bora', role: 'Co-Head & Design Lead', bio: 'Creative visionary and design expert' }
+        { name: 'Ishan Bhardwaj', role: 'Co-Head', bio: 'Fostering community growth and engagement' },
       ]
     },
     {
