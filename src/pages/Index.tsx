@@ -29,17 +29,17 @@ const Index = () => {
             <img 
               src="/lovable-uploads/0af0e1ac-0b00-4ec7-9345-8b9c530df949.png" 
               alt="GLUG Logo" 
-              className="w-32 h-32 md:w-40 md:h-40 mx-auto drop-shadow-2xl"
+              className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 mx-auto drop-shadow-2xl transition-all duration-500 hover:scale-105"
             />
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-glug-blue to-glug-green bg-clip-text text-transparent animate-fade-in">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-glug-blue to-glug-green bg-clip-text text-transparent animate-fade-in">
             GLUG
           </h1>
-          <h2 className="text-2xl md:text-3xl text-gray-300 mb-4 font-tech animate-slide-in">
+          <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-4 font-tech animate-slide-in">
             Jorhat Engineering College
           </h2>
-          <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.3s'}}>
+          <p className="text-base sm:text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.3s'}}>
             Exploring Open Source. Building Together.
           </p>
           
@@ -48,10 +48,10 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{animationDelay: '0.9s'}}>
-            <button className="glass-strong px-8 py-4 rounded-lg font-mono text-glug-green border border-glug-green/30 hover:border-glug-green hover:shadow-lg hover:shadow-glug-green-glow transition-all duration-300">
+            <button className="glass-strong px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-mono text-sm sm:text-base text-glug-green border border-glug-green/30 hover:border-glug-green hover:shadow-lg hover:shadow-glug-green-glow transition-all duration-300">
               {'>'}join --team
             </button>
-            <button className="glass-strong px-8 py-4 rounded-lg font-mono text-glug-blue border border-glug-blue/30 hover:border-glug-blue hover:shadow-lg hover:shadow-glug-blue-glow transition-all duration-300">
+            <button className="glass-strong px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-mono text-sm sm:text-base text-glug-blue border border-glug-blue/30 hover:border-glug-blue hover:shadow-lg hover:shadow-glug-blue-glow transition-all duration-300">
               {'>'}explore --events
             </button>
           </div>
