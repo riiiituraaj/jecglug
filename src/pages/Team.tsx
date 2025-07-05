@@ -23,7 +23,7 @@ const Team = () => {
     {
       title: 'Club Head',
       members: [
-        { name: 'Anshuman Das', role: 'President', bio: 'Leading GLUG into the future with passion for open source' }
+        { name: 'Abhilash Kashyap', role: 'President', bio: 'Leading GLUG into the future with passion for open source' }
       ]
     },
     {
