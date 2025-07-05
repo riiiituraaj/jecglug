@@ -40,17 +40,17 @@ const Team = () => {
       members: [
         { name: 'Abhimanyu Saikia', role: 'Tech Lead', bio: 'Full-stack developer and technical mentor' },
         { name: 'Sivanuj Dutta', role: 'Coordinator', bio: 'Backend development and system architecture' },
-        { name: 'Rittam Dutta', role: 'Coordinator', bio: 'Frontend development and UI/UX' },
-        { name: 'Kaushik Ranjan Rajkumar', role: 'Coordinator', bio: 'DevOps and cloud infrastructure' }
+        { name: 'Rittam Dutta', role: 'Coordinator', bio: 'Frontend development' },
+        { name: 'Kaushik Ranjan Rajkumar', role: 'Coordinator', bio: 'App Developer' }
       ]
     },
     {
       title: 'Design Team',
       members: [
-        { name: 'Ritu Raj Bora', role: 'Design Lead', bio: 'UI/UX designer and creative director' },
-        { name: 'Arnold Saikia', role: 'Coordinator', bio: 'Visual design and brand identity' },
-        { name: 'Ayushman Lahon', role: 'Coordinator', bio: 'Graphic design and illustrations' },
-        { name: 'Nibir Kalita', role: 'Coordinator', bio: 'Motion graphics and animation' }
+        { name: 'Ritu Raj Bora', role: 'Design Lead', bio: 'Product designer and creative director' },
+        { name: 'Arnold Saikia', role: 'Coordinator', bio: 'Motion Graphics' },
+        { name: 'Ayushman Lahon', role: 'Coordinator', bio: 'Graphic design' },
+        { name: 'Nibir Kalita', role: 'Coordinator', bio: 'Visual designer' }
       ]
     },
     {
